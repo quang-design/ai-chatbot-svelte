@@ -37,7 +37,7 @@
 					</SidebarMenuButton>
 				{/snippet}
 			</DropdownMenuTrigger>
-			<DropdownMenuContent side="top" class="w-[--bits-floating-anchor-width]">
+			<DropdownMenuContent side="top" class="w-(--bits-floating-anchor-width)">
 				<DropdownMenuItem
 					class="cursor-pointer"
 					onSelect={() =>

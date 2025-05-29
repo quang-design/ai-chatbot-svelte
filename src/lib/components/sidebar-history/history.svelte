@@ -123,7 +123,7 @@
 				{#each [44, 32, 28, 64, 52] as width (width)}
 					<div class="flex h-8 items-center gap-2 rounded-md px-2">
 						<Skeleton
-							class="h-4 max-w-[--skeleton-width] flex-1 bg-sidebar-accent-foreground/10"
+							class="h-4 max-w-(--skeleton-width) flex-1 bg-sidebar-accent-foreground/10"
 							style="--skeleton-width: {width}%"
 						/>
 					</div>
